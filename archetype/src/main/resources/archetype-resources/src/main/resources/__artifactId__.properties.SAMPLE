@@ -1,0 +1,8 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+$symbol_pound Environment-specific settings for ${project_name}.
+
+jdbc.username = sample
+jdbc.password = sample
+jdbc.url = sample

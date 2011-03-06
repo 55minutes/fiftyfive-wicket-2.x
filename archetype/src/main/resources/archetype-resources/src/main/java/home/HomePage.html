@@ -1,0 +1,33 @@
+
+<wicket:head>
+  <style type="text/css">
+    a:hover, a:active
+    {
+      color: #8fa3a1;
+    }
+  
+    #main
+    {
+      margin: 200px auto;
+      padding: 10px 10px;
+      width: 470px;
+      border: 5px solid #c2dcd8;
+    }
+    
+    #main h1
+    {
+      margin-bottom: 9px;
+      text-align: center;
+    }
+  </style>
+  
+
+  <title>Home</title>
+</wicket:head>
+
+<wicket:extend>
+  <div id="main">
+    <h1>It works!</h1>
+    <p>Current timestamp: <span id="timestamp">xxxx</span> <a href="javascript://" id="update-timestamp">Refresh</a></p>
+  </div> <!-- /main -->
+</wicket:extend>
