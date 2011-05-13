@@ -123,7 +123,7 @@ public class JavaScriptDependencySettings
         
         _jQueryResource = new JavascriptResourceReference(
             JavaScriptDependencySettings.class,
-            "lib/jquery-1.6/jquery.noconflict.min.js"
+            "lib/jquery-1.6.1/jquery.noconflict.min.js"
         );
         _jQueryUIResource = new JavascriptResourceReference(
             JavaScriptDependencySettings.class,
