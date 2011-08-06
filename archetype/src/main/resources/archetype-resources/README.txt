@@ -1,3 +1,10 @@
+IMPORTANT
+
+Please refer to lib/README.txt before building this project for the first
+time.
+
+SOURCE CONTROL
+
 The following directories and files should *not* be added to source control.
 When adding this project to a subversion repository or other SCM system, make
 sure these files are not included, and set up rules (e.g. svn:ignore) to

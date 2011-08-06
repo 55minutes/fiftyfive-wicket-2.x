@@ -108,8 +108,6 @@
       <groupId>org.wicketstuff</groupId>
       <artifactId>wicketstuff-merged-resources</artifactId>
       <version>3.0</version>
-      <scope>system</scope>
-      <systemPath>${basedir}/lib/wicketstuff-merged-resources-3.0.jar</systemPath>
     </dependency>
 
     <!-- ==== Runtime dependencies ======================================== -->

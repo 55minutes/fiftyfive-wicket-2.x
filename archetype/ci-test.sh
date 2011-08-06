@@ -15,5 +15,7 @@ mvn archetype:generate -B -U \
     -Dversion=999 \
     -Dpackage=fiftyfive.test \
     -Dproject_name=Test && \
-cd test-project && \
-mvn -B test
+cd test-project/lib && \
+  sh install.sh && \
+  cd .. && \
+  mvn -B test
