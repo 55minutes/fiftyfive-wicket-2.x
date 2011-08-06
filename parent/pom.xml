@@ -158,6 +158,8 @@
         <groupId>org.wicketstuff</groupId>
         <artifactId>wicketstuff-merged-resources</artifactId>
         <version>3.0</version>
+        <scope>system</scope>
+        <systemPath>${parent.dir}/lib/wicketstuff-merged-resources-3.0.jar</systemPath>
       </dependency>
       <dependency>
         <groupId>javax.servlet</groupId>
@@ -372,13 +374,6 @@
       <url>http://opensource.55minutes.com/maven</url>
       <releases><enabled>true</enabled></releases>
       <snapshots><enabled>true</enabled></snapshots>
-    </repository>
-    <repository>
-      <!-- Needed for wicketstuff-merged-resources -->
-      <id>wicketstuff</id>
-      <url>http://wicketstuff.org/maven/repository</url>
-      <releases><enabled>true</enabled></releases>
-      <snapshots><enabled>false</enabled></snapshots>
     </repository>
   </repositories>
 
