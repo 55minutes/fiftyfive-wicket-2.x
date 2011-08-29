@@ -2,3 +2,4 @@ target/
 examples/fiftyfive-wicket-examples.properties
 examples/log4j.properties
 examples/src/test/resources/log4j.properties
+archetype/temp
