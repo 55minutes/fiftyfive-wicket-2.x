@@ -1,0 +1,3 @@
+[submodule "parent/etc"]
+	path = parent/etc
+	url = git@github.com:55minutes/java-etc.git
